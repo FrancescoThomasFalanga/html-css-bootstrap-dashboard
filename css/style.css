@@ -1,7 +1,4 @@
-.__nav-bg {
-    background-color: blue;
-}
-/* test */
+
 
 .__nav-size {
     height: 80px;
@@ -14,8 +11,21 @@
 
 .fa-solid {
     color: #5b5858;
+    width: 18px;
 }
 
 .fa-bell {
     color: #ff8f00;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    width: 150px;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #0a2238;
 }
