@@ -1,7 +1,7 @@
 
 
 .__nav-size {
-    height: 80px;
+    height: 60px;
 }
 
 
@@ -22,10 +22,37 @@ a {
     text-decoration: none;
 }
 
+.__my-container {
+    display: flex;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+}
+
 aside {
-    width: 150px;
-    height: calc(100vh - 80px);
-    margin-top: 80px;
+    width: 120px;
+    height: calc(100vh - 60px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #0a2238;
+}
+
+main {
+    width: calc(100vh - 150px);
+    height: calc(100vh - 60px);
+    background-color: green;
+}
+
+.__inner-nav-bar {
+    background-color: #1b72e8;
+}
+
+.__bg-button {
+    background-color: #165bba;
+}
+
+li, span {
+    font-size: 10px;
+}
+
+.__aside-hover:hover {
+    background-color: #818f98;
 }
