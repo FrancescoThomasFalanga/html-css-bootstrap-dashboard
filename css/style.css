@@ -49,7 +49,7 @@ main {
     background-color: #165bba;
 }
 
-li, span {
+li, span, .btn-success, .btn-warning, .btn-danger {
     font-size: 10px;
 }
 
