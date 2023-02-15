@@ -9,7 +9,7 @@
 }
 /* ________________________________________________________ */
 aside {
-    width: 120px;
+    width: 140px;
     height: calc(100vh - 60px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #0a2238;
@@ -27,13 +27,13 @@ a {
 
 
 /* COLORS , BACKGROUND-COLOR AND FONT-SIZE*/
-.fa-bell {
-    color: #ff8f00;
-}
-/* ________________________________________________________ */
 .fa-solid {
     color: #5b5858;
     width: 18px;
+}
+/* ________________________________________________________ */
+.fa-bell {
+    color: #ff8f00;
 }
 /* ________________________________________________________ */
 .__bg-search {
