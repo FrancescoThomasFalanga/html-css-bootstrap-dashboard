@@ -9,7 +9,7 @@
 }
 /* ________________________________________________________ */
 aside {
-    width: 140px;
+    width: 80px;
     height: calc(100vh - 60px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #0a2238;
@@ -64,4 +64,10 @@ li, span, .btn-success, .btn-warning, .btn-danger {
 
 .offcanvas-size {
     --bs-offcanvas-width: min(95vw, 800px) !important;
+}
+
+@media screen and (min-width:992px) {
+    aside {
+        min-width: 140px;
+    }
 }
