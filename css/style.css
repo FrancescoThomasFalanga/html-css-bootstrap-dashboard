@@ -61,3 +61,7 @@ li, span, .btn-success, .btn-warning, .btn-danger {
     right: 0;
 }
 /* /COLORS , BACKGROUND-COLOR AND FONT-SIZE*/
+
+.offcanvas-size {
+    --bs-offcanvas-width: min(95vw, 800px) !important;
+}
