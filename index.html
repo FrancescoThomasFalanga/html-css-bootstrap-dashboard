@@ -17,7 +17,10 @@
     <nav class="navbar __nav-bg __nav-size">
         <div class="container-fluid d-flex align-items-center gap-3 px-3">
             <div>
-                <a href="">
+                <a class="d-lg-none" href="">
+                    <img class="img-fluid" src="img/mobile-logo.png" alt="" style="width: 40px;">
+                </a>
+                <a class="d-none d-lg-inline-block" href="">
                     <img src="img/logo.svg" alt="">
                 </a>
             </div>
@@ -29,17 +32,17 @@
             </div>
 
             <div class="d-flex align-items-center gap-4 fs-5">
-                <a href="#">
+                <a class="d-none d-lg-inline-block" href="#">
                     <i class="fa-solid fa-list "></i>
                 </a>
-                <a href="#">
+                <a class="d-none d-lg-inline-block" href="#">
                     <i class="fa-solid fa-circle-question"></i>
                 </a>
-                <a href="#">
+                <a class="d-none d-lg-inline-block" href="#">
                     <i class="fa-solid fa-ellipsis"></i>
                 </a>
                 <div class="dropdown">
-                    <button class="btn border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn border-0 p-0 p-md-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bell"></i>
                     </button>
                     <ul class="dropdown-menu">
@@ -182,7 +185,7 @@
 
             <div>
                 <div class="row m-2 mt-4 text-black">
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <div class="card">
                             <div class="card-header fw-bold fs-2">
                                 Prossime classi
@@ -192,17 +195,17 @@
                                     <thead>
                                         <tr>
                                           <th scope="col">Nome</th>
-                                          <th scope="col" class="text-center">Data inizio</th>
-                                          <th scope="col" class="text-center">ROI</th>
+                                          <th scope="col" class="text-center d-none d-md-table-cell">Data inizio</th>
+                                          <th scope="col" class="text-center d-none d-md-table-cell">ROI</th>
                                           <th scope="col" class="text-center">Stato</th>
                                           <th scope="col" class="text-center">Azioni</th>
                                         </tr>
                                       </thead>
                                       <tbody>
                                         <tr>
-                                          <th scope="row" class="fw-normal" style="width: 60%;"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 75</th>
-                                          <td class="text-center">15 Feb 2021</td>
-                                          <td class="text-center">20%</td>
+                                          <th scope="row" class="fw-normal" style="width: 50%;"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 75</th>
+                                          <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                          <td class="text-center d-none d-md-table-cell">20%</td>
                                           <td class="text-center"><button type="button" class="btn btn-success btn-sm px-1 py-0 rounded-2">Done</button></td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -211,8 +214,8 @@
                                         </tr>
                                         <tr>
                                             <th scope="row" class="fw-normal"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 76</th>
-                                          <td class="text-center">16 Feb 2021</td>
-                                          <td class="text-center">20%</td>
+                                          <td class="text-center d-none d-md-table-cell">16 Feb 2021</td>
+                                          <td class="text-center d-none d-md-table-cell">20%</td>
                                           <td class="text-center"><button type="button" class="btn btn-success btn-sm px-1 py-0 rounded-2">Done</button></td>
                                           <td class="text-center">
                                             <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -221,8 +224,8 @@
                                         </tr>
                                         <tr>
                                             <th scope="row" class="fw-normal"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 77</th>
-                                          <td class="text-center">17 Feb 2021</td>
-                                          <td class="text-center">20%</td>
+                                          <td class="text-center d-none d-md-table-cell">17 Feb 2021</td>
+                                          <td class="text-center d-none d-md-table-cell">20%</td>
                                           <td class="text-center"><button type="button" class="btn btn-warning btn-sm px-1 py-0 rounded-2 text-white">process</button></td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -231,8 +234,8 @@
                                         </tr>
                                         <tr>
                                             <th scope="row" class="fw-normal"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 78</th>
-                                            <td class="text-center">18 Feb 2021</td>
-                                            <td class="text-center">20%</td>
+                                            <td class="text-center d-none d-md-table-cell">18 Feb 2021</td>
+                                            <td class="text-center d-none d-md-table-cell">20%</td>
                                             <td class="text-center"><button type="button" class="btn btn-success btn-sm px-1 py-0 rounded-2">Done</button></td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -241,8 +244,8 @@
                                           </tr>
                                           <tr>
                                             <th scope="row" class="fw-normal"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 79</th>
-                                            <td class="text-center">19 Feb 2021</td>
-                                            <td class="text-center">20%</td>
+                                            <td class="text-center d-none d-md-table-cell">19 Feb 2021</td>
+                                            <td class="text-center d-none d-md-table-cell">20%</td>
                                             <td class="text-center"><button type="button" class="btn btn-danger btn-sm px-1 py-0 rounded-2">failed</button></td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -251,8 +254,8 @@
                                           </tr>
                                           <tr>
                                             <th scope="row" class="fw-normal"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 80</th>
-                                            <td class="text-center">20 Feb 2021</td>
-                                            <td class="text-center">20%</td>
+                                            <td class="text-center d-none d-md-table-cell">20 Feb 2021</td>
+                                            <td class="text-center d-none d-md-table-cell">20%</td>
                                             <td class="text-center"><button type="button" class="btn btn-success btn-sm px-1 py-0 rounded-2">Done</button></td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -261,8 +264,8 @@
                                           </tr>
                                           <tr>
                                             <th scope="row" class="fw-normal"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 81</th>
-                                            <td class="text-center">21 Feb 2021</td>
-                                            <td class="text-center">20%</td>
+                                            <td class="text-center d-none d-md-table-cell">21 Feb 2021</td>
+                                            <td class="text-center d-none d-md-table-cell">20%</td>
                                             <td class="text-center"><button type="button" class="btn btn-danger btn-sm px-1 py-0 rounded-2">failed</button></td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -271,8 +274,8 @@
                                           </tr>
                                           <tr>
                                             <th scope="row" class="fw-normal"><img class="img-fluid" src="img/class-avatar.jpg" alt="" style="width: 25px;"> Classe 82</th>
-                                            <td class="text-center">22 Feb 2021</td>
-                                            <td class="text-center">20%</td>
+                                            <td class="text-center d-none d-md-table-cell">22 Feb 2021</td>
+                                            <td class="text-center d-none d-md-table-cell">20%</td>
                                             <td class="text-center"><button type="button" class="btn btn-success btn-sm px-1 py-0 rounded-2">Done</button></td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-light border-dark"><i class="fa-solid fa-pencil"></i></button>
@@ -330,7 +333,7 @@
                     </div>
 
 
-                    <div class="col-4 d-flex flex-column">
+                    <div class="col-lg-4 d-flex flex-column">
                         <div class="card">
                             <div class="card-header fw-bold fs-2">
                                 Todo
